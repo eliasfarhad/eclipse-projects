@@ -1,0 +1,9 @@
+8
+Cat
+Dog
+Tiger
+Lion
+
+Zebra
+Hipo
+Mosquito

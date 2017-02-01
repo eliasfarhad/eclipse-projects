@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;M7 - Producer-Consumer Pattern&apos;" deleteContents="true" description="Delete resource &apos;M7 - Producer-Consumer Pattern&apos;" element1="/M7 - Producer-Consumer Pattern" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1478014078913"/>
+</session>

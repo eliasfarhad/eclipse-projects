@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Data Structures&apos; to &apos;Binary Search Tree&apos;&#x0A;- Original element: &apos;Data Structures&apos;&#x0A;- Renamed element: &apos;Data Structures&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Data Structures&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Data Structures" name="Binary Search Tree" references="true" stamp="1476160174767" version="1.0"/>
+</session>

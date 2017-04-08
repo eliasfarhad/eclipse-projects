@@ -9,10 +9,13 @@ public class App {
       
       ArrayList<Integer> numbers = new ArrayList<Integer>(8);     // If you don't specify the capacity, the default capacity is 10.
       
-      // Adding
-      numbers.add(10);                                           // we use the add() method to add an item in the ArrayList.
+      // Adding: Appends the specified element to the end of this list.
+      numbers.add(15);                                           // we use the add() method to add an item in the ArrayList.
       numbers.add(100);
-      numbers.add(40);
+      numbers.add(43);
+      
+      // Size: it's not the capacity, it's size. We have three elements in the list, so the size is 3.
+      System.out.println(numbers.size());
       
       // Retrieving
       System.out.println(numbers.get(0));
@@ -23,12 +26,12 @@ public class App {
       for(int i=0; i < numbers.size(); i++) {
          System.out.println(numbers.get(i));
       }
-      
+
       // Removing items (careful!).
       numbers.remove(numbers.size() - 1);          // Removing the last item is fast!
       
       // This is VERY slow. Because when you remove the first item of an ArrayList, it copies all the subsequent items
-      // and moves them one step back to fill the gap.
+      // and moves them one step back (to the left) to fill the gap.
       numbers.remove(0);
       
       System.out.println("\nIteration #2: ");

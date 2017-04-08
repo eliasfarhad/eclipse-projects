@@ -1,0 +1,36 @@
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.imageio.ImageIO;
+   
+   public class GetURLImage {
+      
+      URL url = null;
+   //   File outputFile = null;
+      public static BufferedImage image = null;
+      
+      public static void fetchImageFromURL (URL url) {
+         try {
+            // Read from a URL
+           // URL url = new URL("http://hostname.com/image.gif");
+            image = ImageIO.read(url);
+         } catch (IOException e) {
+            
+         }
+      }
+   
+   
+   // Create a URL from the specified address, open a connection to it,
+   // and then display information about the URL.
+   public static void main(String[] args) throws MalformedURLException, IOException {
+      
+      URL url = new URL(args[0]);
+      fetchImageFromURL(url);
+      
+      File outputFile = new File(args[1]);
+      ImageIO.write(image, "jpg", outputFile);
+   }
+}

@@ -1,0 +1,111 @@
+{   : leftBracer
+a1   : Id
+=  : Lexical Error, invalid token
+(   : LParen
+165   : Int
++   : Plus
+756465   : Int
+)   : RParen
+/   : Div
+a2   : Id
+;   : semicolon
+whi   : keyword_if
+le123   : Id
+=  : Lexical Error, invalid token
+(   : LParen
+.847   : Float
++   : Plus
+74.76   : Float
+/   : Div
+436.e : Lexical Error, invalid token
+5   : Int
+-   : Minus
+.87E12   : FloatE
+*   : Times
+1.7e-4   : FloatE
+)   : RParen
++   : Plus
+(   : LParen
+7.4e+43   : FloatE
+*   : Times
+7465.7465E-635   : FloatE
+/   : Div
+.7645E+5   : FloatE
++   : Plus
+123.e : Lexical Error, invalid token
+-   : Minus
+5   : Int
+)   : RParen
+;   : semicolon
+bb   : Id
+=  : Lexical Error, invalid token
+(   : LParen
+x1   : Id
+||   : or
+x2   : Id
+)   : RParen
+&&   : and
+! : Lexical Error, invalid token
+x3   : Id
+||   : or
+true   : Id
+&&   : and
+false   : Id
+;   : semicolon
+whi   : keyword_if
+le   : Id
+(   : LParen
+a1   : Id
+==   : equal
+a2   : Id
+||   : or
+x1   : Id
+<   : less_than
+x3   : Id
+&&   : and
+x4   : Id
+>   : greater_than
+x5   : Id
+)   : RParen
+if   : Id
+(   : LParen
+cs316   : Id
+! : Lexical Error, invalid token
+=  : Lexical Error, invalid token
+CS315   : Id
+||   : or
+abc   : Id
+<=   : less_than_or_equal_to
+def   : Id
+&&   : and
+kb65tr   : Id
+>=   : greater_than_or_equal_to
+kjh876tr5d   : keyword_do
+)   : RParen
+{   : leftBracer
+cs316   : Id
+=  : Lexical Error, invalid token
+CS315   : Id
+;   : semicolon
+abc   : Id
+=  : Lexical Error, invalid token
+delse   : Id
+*   : Times
+jhnfg   : Id
+;   : semicolon
+}   : rightBracer
+else   : keyword_else
+{   : leftBracer
+if1   : Id
+=  : Lexical Error, invalid token
+mvnh876h   : Id
+;   : semicolon
+else   : keyword_else
+T   : Id
+=  : Lexical Error, invalid token
+8756453   : Int
++   : Plus
+a1   : Id
+;   : semicolon
+}   : rightBracer
+}   : rightBracer

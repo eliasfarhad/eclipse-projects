@@ -48,8 +48,8 @@ class Person {
       return true;
    }
    
-   
 }
+
 
 public class App {
 
@@ -58,7 +58,7 @@ public class App {
       Person p1 = new Person(0, "Bob");
       Person p2 = new Person(1, "Sue");
       Person p3 = new Person(2, "Mike");
-      Person p4 = new Person(1, "Sue");   // Person p4 is basically same as p2. Though Maps and Sets only hold unique items, but they
+      Person p4 = new Person(1, "Sue");   // Person p4 is basically same as p2. Although Maps and Sets only hold unique items, but they
                                           // have no way to know the difference between p2 and p4. So we provide our Person class 
                                           // with equals() method and HashCode() methods to differentiate between them.
 

@@ -1,5 +1,5 @@
 
-public class Machine implements Info{       
+public class Machine implements Info {       
                                             
    private int id = 7;
 

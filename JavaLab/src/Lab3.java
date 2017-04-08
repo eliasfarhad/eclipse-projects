@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-
+// S M farhad
 public class Lab3 {
    public static void main(String args[]) {
    /*   float fahrenheit, centrigrade;

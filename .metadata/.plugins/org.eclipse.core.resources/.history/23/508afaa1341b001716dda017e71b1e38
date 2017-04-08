@@ -1,0 +1,26 @@
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.sql.Date;
+
+public class GetURLInfo {
+
+   public static void main(String[] args) throws IOException {
+
+      URL url = new URL("http://www.apple.com");
+      URLConnection connection = url.openConnection();
+      printInfo(connection);
+   }
+
+   
+   public static void printInfo(URLConnection u) throws IOException {
+      System.out.println(u.getURL().toExternalForm() + ": ");
+      System.out.println("Content Type: " + u.getContentType());
+      System.out.println("Content Length: " + u.getContentLength());
+      System.out.println("Last Modified: " + new Date(u.getLastModified()));
+      System.out.println("Expiration: " + u.getExpiration());
+      System.out.println("Content Encoding: " + u.getContentEncoding());
+      System.out.println(u.getContent().toString());
+   }
+   
+}
